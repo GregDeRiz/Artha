@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <title th:text="${appName}"></title>
+        <link href="/img/artha_logo.jpg" rel="icon" />
+        <link href="/img/artha_logo.jpg" rel="apple-touch-icon" />
+        <link rel="stylesheet" href="/css/index.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <img class="logo" src="/img/artha_logo.jpg" alt="Logo" />
+
+        <div class="container">
+            <h1 class="title">
+                Une révolution technologique pour non-voyants et malvoyants.
+            </h1>
+            <h3 class="subtitle">
+                Une innovation majeure apportant une perception nouvelle de leur
+                environnement permettant une plus grande autonomie.
+            </h3>
+            <div class="buttons">
+                <button class="order">
+                    <a href="https://buy.stripe.com/14A8wPeUU1fn7ccg8Ics80i"
+                        >Précommandez</a
+                    >
+                </button>
+                <button class="contact">
+                    <a href="/contact">Prenez un RDV</a>
+                </button>
+            </div>
+            <img
+                class="presentation"
+                src="/img/ARTHA_situation.png"
+                alt="Presentation"
+            />
+        </div>
+
+        <div class="menu">
+            <a href="https://www.arthafrance.com/fr/recrutement.html">
+                <button class="recrutement">
+                    <i class="fa-solid fa-user"></i>
+                </button>
+            </a>
+            <a href="/help">
+                <button class="questions">
+                    <i class="fa-solid fa-question"></i>
+                </button>
+            </a>
+            <a href="/">
+                <button class="home">
+                    <i class="fa-solid fa-house"></i>
+                </button>
+            </a>
+            <a href="/about">
+                <button class="about">
+                    <i class="fa-solid fa-info"></i>
+                </button>
+            </a>
+            <a href="/contact">
+                <button class="contact">
+                    <i class="fa-solid fa-phone"></i>
+                </button>
+            </a>
+        </div>
+
+        <script
+            src="https://kit.fontawesome.com/3e748750cf.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
